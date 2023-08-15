@@ -6,7 +6,7 @@
 A site to summa my works and talents.
 ## Installation
 
-Install my project with npm
+Install this portfolio with npm
 
 ```bash
   npm install 
