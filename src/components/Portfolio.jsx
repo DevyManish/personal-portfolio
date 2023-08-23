@@ -17,7 +17,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: freechat,
-      demo_link : "https://mfreechat.vercel.app/",
+      demo_link : "https://freeechat.vercel.app/",
       code_link : "https://github.com/DevyManish/FreeChat",
     },
     {
