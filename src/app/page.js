@@ -2,12 +2,13 @@ import Header from "@/components/Header";
 import HomeSection from "@/components/HomeSection";
 import Marquee from "@/components/Marquee";
 import MobHeader from "@/components/MobHeader";
+import Skills from "@/components/Skills";
 import { items } from "@/lib/data";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen w-full bg-black overflow-hidden">
+    <main className="relative w-full bg-black overflow-hidden">
       {/*pattern */}
       <div className="absolute inset-0 h-full w-full 
         bg-[linear-gradient(to_right,#73737310_1px,transparent_1px),linear-gradient(to_bottom,#73737310_1px,transparent_1px)] 
@@ -27,6 +28,7 @@ export default function Home() {
           <div className="flex flex-col min-h-[calc(100vh-80px)] items-center justify-center">
             <HomeSection />
             <Marquee />
+            <Skills />
           </div>
         </div>
       </div>

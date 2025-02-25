@@ -7,11 +7,10 @@ import { AuroraText } from "./magicui/aurora-text";
 import FadeContent from "./ui/Fade";
 import TiltedCard from "./ui/profile";
 
-
 const HomeSection = () => {
     return (
-        <section className="flex flex-col md:flex-colitems-center justify-between py-12 px-6 md:px-20 w-2/3 space-y-6">
-            <div className="items-center justify-between">
+        <section className="flex flex-col md:flex-col items-center justify-between md:mt-20 py-12 px-6 md:px-20 w-2/3 space-y-6">
+            <div className="md:items-center md:justify-between">
                 <TextAnimate animation="blurInUp" by="character" once className="text-xl md:text-lg font-semibold text-gray-400">
                     Hi, I'm Manish Gupta
                 </TextAnimate>
@@ -51,7 +50,7 @@ const HomeSection = () => {
                 </div>
 
             </div>
-            <div className="flex gap-4 mt-6">
+            <div className="flex gap-4 mt-12 md:mt-6">
                 <a
                     href="https://github.com/devymanish"
                     target="_blank"
@@ -75,8 +74,7 @@ const HomeSection = () => {
                     <SiMinutemailer className="w-6 h-6 text-white" />
                 </a>
             </div>
-            {/* 
-            <Marquee /> */}
+
         </section>
     );
 };
