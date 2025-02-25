@@ -11,15 +11,16 @@ import TiltedCard from "./ui/profile";
 const HomeSection = () => {
     return (
         <section className="flex flex-col md:flex-colitems-center justify-between py-12 px-6 md:px-20 w-2/3 space-y-6">
-            <div>
-                <TextAnimate animation="blurInUp" by="character" once className="text-lg font-semibold text-gray-400">
+            <div className="items-center justify-between">
+                <TextAnimate animation="blurInUp" by="character" once className="text-xl md:text-lg font-semibold text-gray-400">
                     Hi, I'm Manish Gupta
                 </TextAnimate>
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                     <div>
-                        <h1 className="text-4xl md:text-6xl font-bold mt-2 text-white">Software <br /> Developer</h1>
+                        <h1 className="text-6xl hidden md:block md:text-6xl font-bold mt-2 text-white">Software <br /> Developer</h1>
+                        <h1 className="text-4xl md:hidden font-bold mt-2 text-white">Software <br />  <span className="text-purple-400">Developer</span></h1>
                         <div className="max-w-lg mt-6 md:mt-6">
-                            <p className="text-gray-400 text-md font-semibold">
+                            <p className="text-gray-400 text-md font-semibold hidden md:block">
                                 Transforming ideas into interactive and seamless digital experiences
                                 with cutting-edge{" "}
                                 <span className="text-purple-400">fullstack</span> development.
@@ -48,6 +49,7 @@ const HomeSection = () => {
                         />
                     </FadeContent>
                 </div>
+
             </div>
             <div className="flex gap-4 mt-6">
                 <a

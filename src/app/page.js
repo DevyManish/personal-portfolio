@@ -21,12 +21,7 @@ export default function Home() {
         </div>
         <div className="block md:hidden">
 
-          <MobHeader
-            items={items}
-            panelHeight={68}
-            baseItemSize={50}
-            magnification={70}
-          />
+          <MobHeader />
         </div>
         <div className="container mx-auto px-4 md:py-12">
           <div className="flex flex-col min-h-[calc(100vh-80px)] items-center justify-center">
