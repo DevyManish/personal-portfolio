@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import HomeSection from "@/components/HomeSection";
 import Marquee from "@/components/Marquee";
 import MobHeader from "@/components/MobHeader";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import { items } from "@/lib/data";
 import Image from "next/image";
@@ -29,6 +30,7 @@ export default function Home() {
             <HomeSection />
             <Marquee />
             <Skills />
+            <Projects />
           </div>
         </div>
       </div>

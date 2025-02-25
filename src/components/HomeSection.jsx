@@ -50,7 +50,7 @@ const HomeSection = () => {
                 </div>
 
             </div>
-            <div className="flex gap-4 mt-12 md:mt-6">
+            <div className="flex gap-4 mt-12 md:mt-6 md:pt-6">
                 <a
                     href="https://github.com/devymanish"
                     target="_blank"
