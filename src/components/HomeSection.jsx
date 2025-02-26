@@ -9,7 +9,7 @@ import TiltedCard from "./ui/profile";
 
 const HomeSection = () => {
     return (
-        <section className="flex flex-col md:flex-col items-center justify-between md:mt-20 py-12 px-6 md:px-20 w-2/3 space-y-6">
+        <section className="flex flex-col mt-8 md:flex-col items-start justify-start w-full md:items-center md:justify-between md:mt-20 py-12 px-12   md:px-20 md:w-2/3 space-y-6">
             <div className="md:items-center md:justify-between">
                 <TextAnimate animation="blurInUp" by="character" once className="text-xl md:text-lg font-semibold text-gray-400">
                     Hi, I'm Manish Gupta
@@ -50,7 +50,7 @@ const HomeSection = () => {
                 </div>
 
             </div>
-            <div className="flex gap-4 mt-12 md:mt-6 md:pt-6">
+            <div className="flex gap-4 mt-12 py-4 md:py-0 md:mt-6 md:pt-6">
                 <a
                     href="https://github.com/devymanish"
                     target="_blank"
