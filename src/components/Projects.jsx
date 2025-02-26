@@ -13,7 +13,6 @@ export default function Projects() {
                 </h1>
 
                 <div className="grid md:grid-cols-2 gap-6">
-                    {/* StockIn Project Card */}
                     <Card className="bg-[#4169E1]/10 border-0 rounded-3xl overflow-hidden">
                         <CardContent className="p-0">
                             <div className="relative h-[300px] md:h-[400px]">
@@ -42,7 +41,6 @@ export default function Projects() {
                         </CardFooter>
                     </Card>
 
-                    {/* Svgl.app Project Card */}
                     <Card className="bg-[#9333EA]/10 border-0 rounded-3xl overflow-hidden">
                         <CardContent className="p-0">
                             <div className="relative h-[300px] md:h-[400px]">

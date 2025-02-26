@@ -12,9 +12,9 @@ export default function Home() {
     <main className="relative w-full bg-black overflow-hidden">
       {/*pattern */}
       <div className="absolute inset-0 h-full w-full 
-        bg-[linear-gradient(to_right,#73737310_1px,transparent_1px),linear-gradient(to_bottom,#73737310_1px,transparent_1px)] 
+        bg-[linear-gradient(to_right,#73737315_1px,transparent_1px),linear-gradient(to_bottom,#73737315_1px,transparent_1px)] 
         bg-[size:20px_20px] 
-        [mask-image:radial-gradient(ellipse_at_center,black_10%,transparent_90%)]">
+        [mask-image:radial-gradient(ellipse_at_center,black_20%,transparent_80%)]">
       </div>
 
       <div className="relative z-10 h-full">
