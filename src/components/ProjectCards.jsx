@@ -26,7 +26,7 @@ export function ProjectCard({ title, description, image }) {
                                 className="rounded-2xl w-full h-auto object-cover" />
                         </Lens>
                     </div>
-                    
+
                     {/* Improved spacing between image and text content */}
                     <motion.div
                         animate={{
@@ -36,7 +36,7 @@ export function ProjectCard({ title, description, image }) {
                         <h2 className="text-white text-xl text-left font-bold">
                             {title}
                         </h2>
-                        <p className="text-neutral-200 text-left mt-2">
+                        <p className="text-neutral-200 text-left mt-2 text-balance">
                             {description}
                         </p>
                     </motion.div>

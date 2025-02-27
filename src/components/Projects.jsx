@@ -15,8 +15,9 @@ export default function Projects() {
                 </h1>
 
                 <div className="grid md:grid-cols-2 md:gap-6">
-                    <ProjectCard title="Dakseva" description="blah.." image="/dakseva.png" />
-                    <ProjectCard title="Jobscout" description="blah.." image="/jobscout.png" />
+                    <ProjectCard title="Dakseva" description="Selected for SIH 2024 Finals & scored 2nd best project. Used ResNet-50 for real time queue analysis on 8 parameters. Built over NextJs, ExpressJs & Flask." image="/dakseva.png" />
+                    <ProjectCard title="Jobscout" description="A quick and simple tool for finding jobs in India. Buitin resume analyser for HRs and resume enhancer tool for candidates. Built over NextJs, Flask, PyPDF & Llama." image="/jobscout.png"
+                    />
                 </div>
 
                 <div className="flex justify-center w-full items-center py-8">
