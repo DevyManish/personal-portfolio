@@ -2,10 +2,9 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
 import { TextAnimate } from "./magicui/text-animate";
-import Marquee from "./Marquee";
-import { AuroraText } from "./magicui/aurora-text";
 import FadeContent from "./ui/Fade";
 import TiltedCard from "./ui/profile";
+import Link from "next/link";
 
 const HomeSection = () => {
     return (
@@ -40,41 +39,34 @@ const HomeSection = () => {
                             showMobileWarning={false}
                             showTooltip={true}
                             displayOverlayContent={true}
-                        // overlayContent={
-                        //     <p className="tilted-card-demo-text l-2">
-                        //         Manish Gupta
-                        //     </p>
-                        // }
                         />
                     </FadeContent>
                 </div>
-
             </div>
             <div className="flex gap-4 mt-12 py-4 md:py-0 md:mt-6 md:pt-6">
-                <a
+                <Link
                     href="https://github.com/devymanish"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-gray-800 hover:bg-gray-700 rounded-xl transition"
                 >
                     <FaGithub className="w-6 h-6 text-white" />
-                </a>
-                <a
+                </Link>
+                <Link
                     href="https://linkedin.com/in/manishguptafr"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-gray-800 hover:bg-gray-700 rounded-xl transition"
                 >
                     <FaLinkedin className="w-6 h-6 text-white" />
-                </a>
-                <a
+                </Link>
+                <Link
                     href="mailto:manishguptafr@gmail.com"
                     className="p-3 bg-gray-800 hover:bg-gray-700 rounded-xl transition"
                 >
                     <SiMinutemailer className="w-6 h-6 text-white" />
-                </a>
+                </Link>
             </div>
-
         </section>
     );
 };

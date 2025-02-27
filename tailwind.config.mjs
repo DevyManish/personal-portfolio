@@ -81,6 +81,10 @@ module.exports = {
 				rainbow: 'rainbow var(--speed, 2s) infinite linear'
 			},
 			keyframes: {
+				wiggle: {
+					'0%, 100%': { transform: 'rotate(-15deg)' },
+					'50%': { transform: 'rotate(15deg)' },
+				},
 				marquee: {
 					'0%': {
 						transform: 'translateX(0%)'

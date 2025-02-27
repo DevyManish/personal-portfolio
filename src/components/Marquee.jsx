@@ -4,7 +4,6 @@ const Marquee = () => {
     return (
         <section className="flex items-center justify-center w-full md:w-4/6">
             <div className="relative flex w-4/5 max-w-5xl overflow-hidden">
-                {/* Duplicated content for smooth looping */}
                 <div className="flex items-center gap-x-10 py-12 animate-marquee whitespace-nowrap">
                     {[...Array(2)].map((_, i) => (
                         <React.Fragment key={i}>

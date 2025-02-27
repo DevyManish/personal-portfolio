@@ -1,5 +1,3 @@
-import { IoHomeOutline } from "react-icons/io5";
-import { GoProjectSymlink } from "react-icons/go";
 import {
     IconBrandGithub,
     IconBrandX,
@@ -14,62 +12,21 @@ import { Github } from "lucide-react";
 export const links = [
     {
         name: "Home",
-        hash: "#home",
+        href: "#home",
     },
     {
         name: "Projects",
-        hash: "#projects",
+        href: "#projects",
     },
     {
         name: "Experience",
-        hash: "#experience",
+        href: "#experience",
     },
     {
         name: "Contact",
-        hash: "#contact",
+        href: "#contact",
     },
 ]
-
-export const experience = [
-    {
-        title: "B.Tech in CSE",
-        dates: "2022-2026 ",
-        location: "JIS University",
-        description:
-            "Pursuing B.Tech in Computer Science and Engineering. Represented my college in Smart India Hackathon Finals 2025. Won 2024 Innovation award. Served as AICTE and Ideometer Amabassador for 2024-2025.",
-        image:
-            "/jisulogo.png",
-    }, {
-        title: "Web Mentor",
-        dates: "2023-2025",
-        location: "Google Developer Student Clubs",
-        description:
-            "Served as web mentor for Google Developer Student Clubs. Conducted workshops on web development and cloud computing. Organized hackathons and coding competitions.",
-        image:
-            "gdg.jpg",
-
-    }, {
-        title: "Software Developer Intern",
-        dates: "Feb 2025 - April 2025",
-        location: "Taleniq Technologies Pvt Ltd.",
-        description:
-            "Worked as a software developer intern at Taleniq Technologies Pvt Ltd. Developed backend for android applications using firebase. Worked on serverless computing and cloud functions.",
-        image:
-            "taleniq.png",
-    },
-]
-
-
-
-export const items = [
-    {
-        icon: <IoHomeOutline
-            size={18} color={'white'} />, label: 'Home'
-    },
-    { icon: <GoProjectSymlink size={18} color={'white'} />, label: 'Archive' },
-    { icon: <IoHomeOutline size={18} color={'white'} />, label: 'Profile' },
-    { icon: <IoHomeOutline size={18} color={'white'} />, label: 'Settings' },
-];
 
 export const links2 = [
     {
@@ -129,3 +86,34 @@ export const links2 = [
         href: "#",
     },
 ];
+
+export const experience = [
+    {
+        title: "B.Tech in CSE",
+        dates: "2022-2026 ",
+        location: "JIS University",
+        description:
+            "Pursuing B.Tech in Computer Science and Engineering. Represented my college in Smart India Hackathon Finals 2025. Won 2024 Innovation award. Served as AICTE and Ideometer Amabassador for 2024-2025.",
+        image:
+            "/jisulogo.png",
+    }, {
+        title: "Web Mentor",
+        dates: "2023-2025",
+        location: "Google Developer Student Clubs",
+        description:
+            "Served as web mentor for Google Developer Student Clubs. Conducted workshops on web development and cloud computing. Organized hackathons and coding competitions.",
+        image:
+            "gdg.jpg",
+
+    }, {
+        title: "Software Developer Intern",
+        dates: "Feb 2025 - April 2025",
+        location: "Taleniq Technologies Pvt Ltd.",
+        description:
+            "Worked as a software developer intern at Taleniq Technologies Pvt Ltd. Developed backend for android applications using firebase. Worked on serverless computing and cloud functions.",
+        image:
+            "taleniq.png",
+    },
+]
+
+

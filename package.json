@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^4.1.2",
     "@radix-ui/react-accordion": "^1.2.3",
     "@radix-ui/react-avatar": "^1.1.3",
     "@radix-ui/react-label": "^2.1.2",
     "@radix-ui/react-popover": "^1.1.6",
     "@radix-ui/react-slot": "^1.1.2",
+    "@supabase/supabase-js": "^2.49.1",
     "@tabler/icons-react": "^3.30.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -23,12 +25,17 @@
     "lucide-react": "^0.475.0",
     "motion": "^12.4.7",
     "next": "15.1.7",
+    "next-themes": "^0.4.4",
     "react": "^19.0.0",
     "react-day-picker": "8.10.1",
     "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
     "react-icons": "^5.5.0",
+    "resend": "^4.1.2",
+    "sonner": "^2.0.1",
     "tailwind-merge": "^3.0.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

@@ -23,13 +23,12 @@ export default function Header() {
             >
                 <div className="absolute inset-0  bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 rounded-inherit" />
             </motion.div>
-
             <nav className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
                 <ul className="flex flex-wrap items-center justify-center gap-y-1 text-[0.95rem] font-medium gap-2" >
                     {links.map(link => (
                         <motion.li
                             className="h-3/4 flex items-center justify-center relative"
-                            key={link.hash} 
+                            key={link.href}
                             initial={{ y: -100, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                         >
@@ -43,14 +42,13 @@ export default function Header() {
                                             activeSection !== link.name
                                     }
                                 )}
-                                href={link.hash}
+                                href={link.href}
                                 onClick={() => {
                                     setActiveSection(link.name)
                                     setTimeOfLastClick(Date.now())
                                 }}
                             >
                                 {link.name}
-
                                 {link.name === activeSection && (
                                     <motion.span
                                         className="absolute -bottom-1 left-0 w-full h-[2px] bg-gradient-to-r from-blue-300 to-purple-400"
