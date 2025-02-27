@@ -6,7 +6,7 @@ import { BlurFade } from './magicui/blur-fade';
 const BLUR_FADE_DELAY = 0.04;
 const Experience = () => {
     return (
-        <div className="px-12 md:w-2/3 md:px-20">
+        <div className="px-12 md:w-2/3 md:px-24 py-4">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-12 text-white">
                 Experience
             </h1>

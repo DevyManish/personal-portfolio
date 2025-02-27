@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Header from "@/components/Header";
 import HomeSection from "@/components/HomeSection";
@@ -7,6 +8,7 @@ import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import { items } from "@/lib/data";
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -33,9 +35,12 @@ export default function Home() {
             <Skills />
             <Projects />
             <Experience />
+            <Contact />
+
           </div>
         </div>
       </div>
+      <Footer />
     </main>
   );
 }
