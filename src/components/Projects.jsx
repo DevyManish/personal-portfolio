@@ -2,82 +2,51 @@ import Image from "next/image"
 import { Code, ArrowUpRight, Github } from "lucide-react"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import Link from "next/link"
+import { ProjectCard } from "./ProjectCards"
+import { RainbowButton } from "./magicui/rainbow-button"
 
 export default function Projects() {
     return (
-        <div className="min-h-screen bg-black text-white p-4 md:p-8 lg:p-16">
+        <div className="min-h-screen px-12 md:px-0 bg-black text-white p-4 md:p-8 lg:p-16">
             <div className="max-w-7xl mx-auto">
                 <h2 className="text-purple-500 mb-2 text-lg">My work</h2>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-12">
                     Projects
                 </h1>
 
-                <div className="grid md:grid-cols-2 gap-6">
-                    <Card className="bg-[#4169E1]/10 border-0 rounded-3xl overflow-hidden">
-                        <CardContent className="p-0">
-                            <div className="relative h-[300px] md:h-[400px]">
-                                <Image
-                                    src="/profile.jpg"
-                                    alt="StockIn Dashboard"
-                                    fill
-                                    className="object-cover"
-                                    sizes="(max-width: 768px) 100vw, 50vw"
-                                />
-                            </div>
-                        </CardContent>
-                        <CardFooter className="flex justify-between items-center p-6">
-                            <div>
-                                <h3 className="text-2xl font-bold mb-1">StockIn</h3>
-                                <p className="text-gray-400">In Development</p>
-                            </div>
-                            <div className="flex gap-2">
-                                <button className="p-3 bg-black/20 rounded-xl hover:bg-black/30 transition-colors">
-                                    <Code className="w-5 h-5" />
-                                </button>
-                                <button className="p-3 bg-black/20 rounded-xl hover:bg-black/30 transition-colors">
-                                    <ArrowUpRight className="w-5 h-5" />
-                                </button>
-                            </div>
-                        </CardFooter>
-                    </Card>
-
-                    <Card className="bg-[#9333EA]/10 border-0 rounded-3xl overflow-hidden">
-                        <CardContent className="p-0">
-                            <div className="relative h-[300px] md:h-[400px]">
-                                <Image
-                                    src="/profile.jpg"
-                                    alt="Svgl.app Interface"
-                                    fill
-                                    className="object-cover object-right"
-                                    sizes="(max-width: 768px) 100vw, 50vw"
-                                />
-                            </div>
-                        </CardContent>
-                        <CardFooter className="flex justify-between items-center p-6">
-                            <div>
-                                <h3 className="text-2xl font-bold mb-1">Svgl.app</h3>
-                                <p className="text-gray-400">Contributor</p>
-                            </div>
-                            <div className="flex gap-2">
-                                <button className="p-3 bg-black/20 rounded-xl hover:bg-black/30 transition-colors">
-                                    <Code className="w-5 h-5" />
-                                </button>
-                                <button className="p-3 bg-black/20 rounded-xl hover:bg-black/30 transition-colors">
-                                    <ArrowUpRight className="w-5 h-5" />
-                                </button>
-                            </div>
-                        </CardFooter>
-                    </Card>
+                <div className="grid md:grid-cols-2 md:gap-6">
+                    <ProjectCard title="Dakseva" description="blah.." image="/dakseva.png" />
+                    <ProjectCard title="Jobscout" description="blah.." image="/jobscout.png" />
                 </div>
 
-                <Link
-                    href="#"
-                    className="mt-16 flex items-center justify-center gap-2 text-gray-400 hover:text-white transition-colors py-4 px-8 rounded-full border border-gray-800 hover:border-gray-600 max-w-md mx-auto"
-                >
-                    <span>More projects on</span>
-                    <Github className="w-5 h-5" />
-                </Link>
+                <div className="flex justify-center w-full items-center py-8">
+                    <Link
+                        href="https://www.github.com/devymanish">
+                        {/* <ShinyText /> */}
+                        <RainbowButton><div className="flex gap-2 items-center text-black font-semibold">View More on {' '} <Github className="w-5 h-5" color="#020500" /></div></RainbowButton>
+                    </Link>
+                </div>
             </div>
         </div>
     )
 }
+
+// const ShinyText = ({ disabled = false, speed = 5, className = '' }) => {
+//     const animationDuration = `${speed}s`;
+
+//     return (
+//         <div
+//             className={`flex text-[#b5b5b5a4] py-1 bg-clip-text ${disabled ? '' : 'animate-shine'} ${className} px-3 items-center justify-center gap-3 border-2 border-[#b5b5b5a4] rounded-2xl`}
+//             style={{
+//                 backgroundImage: 'linear-gradient(120deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 60%)',
+//                 backgroundSize: '200% 100%',
+//                 WebkitBackgroundClip: 'text',
+//                 animationDuration: animationDuration,
+//                 fontSize: '1 rem',
+//                 fontWeight: '700',
+//             }}
+//         >
+//             <span>View More on </span> <Github className="w-5 h-5" color="#b5b5b5a4" />
+//         </div>
+//     );
+// };

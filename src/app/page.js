@@ -1,3 +1,4 @@
+import Experience from "@/components/Experience";
 import Header from "@/components/Header";
 import HomeSection from "@/components/HomeSection";
 import Marquee from "@/components/Marquee";
@@ -31,6 +32,7 @@ export default function Home() {
             <Marquee />
             <Skills />
             <Projects />
+            <Experience />
           </div>
         </div>
       </div>

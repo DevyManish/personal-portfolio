@@ -75,7 +75,9 @@ module.exports = {
     			'glitch-after': 'glitch var(--after-duration) infinite linear alternate-reverse',
     			'glitch-before': 'glitch var(--before-duration) infinite linear alternate-reverse',
     			'accordion-down': 'accordion-down 0.2s ease-out',
-    			'accordion-up': 'accordion-up 0.2s ease-out'
+    			'accordion-up': 'accordion-up 0.2s ease-out',
+    			shine: 'shine 5s linear infinite',
+    			rainbow: 'rainbow var(--speed, 2s) infinite linear'
     		},
     		keyframes: {
     			marquee: {
@@ -243,6 +245,22 @@ module.exports = {
     				},
     				to: {
     					height: '0'
+    				}
+    			},
+    			shine: {
+    				'0%': {
+    					'background-position': '100%'
+    				},
+    				'100%': {
+    					'background-position': '-100%'
+    				}
+    			},
+    			rainbow: {
+    				'0%': {
+    					'background-position': '0%'
+    				},
+    				'100%': {
+    					'background-position': '200%'
     				}
     			}
     		}

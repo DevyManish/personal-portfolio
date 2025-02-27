@@ -1,30 +1,3 @@
-export const links = [
-    {
-        name: "Home",
-        hash: "#home",
-    },
-    {
-        name: "About",
-        hash: "#about",
-    },
-    {
-        name: "Projects",
-        hash: "#projects",
-    },
-    {
-        name: "Skills",
-        hash: "#skills",
-    },
-    {
-        name: "Experience",
-        hash: "#experience",
-    },
-    {
-        name: "Contact",
-        hash: "#contact",
-    },
-]
-
 import { IoHomeOutline } from "react-icons/io5";
 import { GoProjectSymlink } from "react-icons/go";
 import {
@@ -36,6 +9,57 @@ import {
     IconTerminal2,
 } from "@tabler/icons-react";
 import Image from "next/image";
+import { Github } from "lucide-react";
+
+export const links = [
+    {
+        name: "Home",
+        hash: "#home",
+    },
+    {
+        name: "Projects",
+        hash: "#projects",
+    },
+    {
+        name: "Experience",
+        hash: "#experience",
+    },
+    {
+        name: "Contact",
+        hash: "#contact",
+    },
+]
+
+export const experience = [
+    {
+        title: "B.Tech in CSE",
+        dates: "2022-2026 ",
+        location: "JIS University",
+        description:
+            "Pursuing B.Tech in Computer Science and Engineering. Represented my college in Smart India Hackathon Finals 2025. Won 2024 Innovation award. Served as AICTE and Ideometer Amabassador for 2024-2025.",
+        image:
+            "/jisulogo.png",
+    }, {
+        title: "Web Mentor",
+        dates: "2023-2025",
+        location: "Google Developer Student Clubs",
+        description:
+            "Served as web mentor for Google Developer Student Clubs. Conducted workshops on web development and cloud computing. Organized hackathons and coding competitions.",
+        image:
+            "gdg.jpg",
+
+    }, {
+        title: "Software Developer Intern",
+        dates: "Feb 2025 - April 2025",
+        location: "Taleniq Technologies Pvt Ltd.",
+        description:
+            "Worked as a software developer intern at Taleniq Technologies Pvt Ltd. Developed backend for android applications using firebase. Worked on serverless computing and cloud functions.",
+        image:
+            "taleniq.png",
+    },
+]
+
+
 
 export const items = [
     {
