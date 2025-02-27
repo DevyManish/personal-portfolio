@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Lens } from "@/components/ui/Lens";
+import { Lens } from "@/components/ui/lens";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
