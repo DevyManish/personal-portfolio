@@ -1,9 +1,9 @@
 import {
     IconBrandGithub,
     IconBrandX,
-    IconExchange,
+    IconSend,
     IconHome,
-    IconNewSection,
+    IconBriefcase,
     IconTerminal2,
 } from "@tabler/icons-react";
 import Image from "next/image";
@@ -34,56 +34,43 @@ export const links2 = [
         icon: (
             <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "#",
+        href: "#home",
     },
 
     {
-        title: "Products",
+        title: "Projects",
         icon: (
             <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "#",
+        href: "#projects",
     },
     {
-        title: "Components",
+        title: "Experience",
         icon: (
-            <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+            <IconBriefcase className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "#",
+        href: "#experience",
     },
     {
-        title: "Aceternity UI",
+        title: "Contact",
         icon: (
-            <Image
-                src="https://assets.aceternity.com/logo-dark.png"
-                width={20}
-                height={20}
-                alt="Aceternity Logo"
-            />
+            <IconSend className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "#",
+        href: "#contact",
     },
-    {
-        title: "Changelog",
-        icon: (
-            <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-        ),
-        href: "#",
-    },
-
     {
         title: "Twitter",
         icon: (
             <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "#",
+        href: "https://twitter.com/l_m_manish",
     },
     {
         title: "GitHub",
         icon: (
             <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "#",
+        href: "https://www.github.com/devymanish",
     },
 ];
 

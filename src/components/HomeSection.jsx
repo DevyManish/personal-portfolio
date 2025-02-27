@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const HomeSection = () => {
     return (
-        <section className="flex flex-col mt-8 md:flex-col items-start justify-start w-full md:items-center md:justify-between md:mt-20 py-12 px-12   md:px-20 md:w-2/3 space-y-6">
+        <section className="flex flex-col mt-8 md:flex-col items-start justify-start w-full md:items-center md:justify-between md:mt-20 py-12 px-12 md:px-20 md:w-2/3 space-y-6" id="home">
             <div className="md:items-center md:justify-between">
                 <TextAnimate animation="blurInUp" by="character" once className="text-xl md:text-lg font-semibold text-gray-400">
                     Hi, I'm Manish Gupta

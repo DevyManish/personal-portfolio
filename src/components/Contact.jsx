@@ -55,7 +55,7 @@ export default function Contact() {
     }
 
     return (
-        <div className="flex flex-col px-12 md:w-2/3 mt-10 py-10 text-white md:px-24">
+        <div className="flex flex-col px-12 md:w-2/3 mt-10 py-10 text-white md:px-24" id="contact">
             <div className="md:items-start md:justify-start">
                 <p className="text-purple-400 mb-2">Let's talk</p>
 

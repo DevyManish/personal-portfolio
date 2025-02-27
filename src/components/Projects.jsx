@@ -7,7 +7,7 @@ import { RainbowButton } from "./magicui/rainbow-button"
 
 export default function Projects() {
     return (
-        <div className="min-h-screen px-12 md:px-0 bg-black text-white p-4 md:p-8 lg:p-16">
+        <div className="min-h-screen px-12 md:px-0 bg-black text-white p-4 md:p-8 lg:p-16" id="projects">
             <div className="max-w-7xl mx-auto">
                 <h2 className="text-purple-500 mb-2 text-lg">My work</h2>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-12">
