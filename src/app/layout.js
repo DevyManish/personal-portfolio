@@ -60,6 +60,7 @@ export default function RootLayout({ children }) {
           {children}
         </ActiveSectionContextProvider>
         <Toaster />
+        <Analytics />
       </body>
     </html>
   );
