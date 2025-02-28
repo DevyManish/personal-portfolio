@@ -32,7 +32,7 @@ const Footer = () => {
                             <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
                         </svg>
                     </Link>
-                    <Link className="ml-3 text-gray-500" href="https://linkedin.com/in/l_m_manish" target="_blank" rel="noopener noreferrer">
+                    <Link className="ml-3 text-gray-500" href="https://linkedin.com/in/manishgupatfr" target="_blank" rel="noopener noreferrer">
                         <svg
                             fill="currentColor"
                             stroke="currentColor"
